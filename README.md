@@ -2,7 +2,7 @@
 
 面向《高级 Python 程序设计》课程的跨平台实验报告自动生成工具：从 Jupyter Notebook（`.ipynb`）与 `images/` 中的截图生成符合课程排版规范的 Word（`.docx`）报告。
 
-本仓库供 Cursor、Claude Code、Windsurf 等工具使用；**完整操作流程、禁令与版式细则见 [`rules/SKILL.md`](rules/SKILL.md)**（根目录 `.cursorrules` / `.clauderules` / `.windsurfrules` 会引导助手读取该文件）。
+本仓库供 Cursor、Claude Code、Windsurf 等工具使用；**完整操作流程、禁令与版式细则见 [`rules/SKILL.md`](rules/SKILL.md)**。
 
 ## 依赖
 
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 # 或使用清华镜像：pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-> **说明：** 按 `rules/SKILL.md` 由 AI 自动执行生成任务时，应使用**当前终端已有环境**并直接运行 `python generate_report.py`，**不要**在自动化流程中新建虚拟环境（本地开发若自行使用 `venv` 仍可忽略提交，见 `.gitignore`）。
+> **说明：** 按 `rules/SKILL.md` 由 AI 自动执行生成任务时，应使用**当前终端已有环境**并直接运行 `python generate_report.py`，**不要**在自动化流程中新建虚拟环境。
 
 ## 目录约定
 
