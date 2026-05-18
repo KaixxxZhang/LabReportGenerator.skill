@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 | 目录 | 用途 |
 |------|------|
-| `inputs/` | 用户 `.ipynb` |
+| `inputs/` | 用户 `.ipynb` `.py`|
 | `images/` | 截图（命名可杂乱，由 AI 按内容匹配题目） |
 | `template/` | 带目录与占位符的 `template.docx`（勿覆盖源文件；脚本应 `Document(...)` 后另存到 `output/`） |
 | `output/` | 生成的报告（如 `学号_姓名_实验报告.docx`） |
