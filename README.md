@@ -30,8 +30,9 @@ pip install -r requirements.txt
 | `rules/` | 核心 SOP：`SKILL.md` |
 
 ## 用户输入
-运行 lab report generator 技能。基于 template 里的模板生成报告。我的信息是：姓名：xxx，学号：xxx，学院：xx学院，专业：xxx，日期：2026-xx-xx。标题为：xxxxx。请开始工作。
+运行 lab report generator 技能。基于 template 里的模板生成报告。使用“单元格填充模式”/“项目开发模式”。我的信息是：姓名：xxx，学号：xxx，学院：xx学院，专业：xxx，日期：2026-xx-xx。标题为：xxxxx。请开始工作。
 
-## 生成物
+## 交付物
 
 由助手根据 `rules/SKILL.md` 在工作区生成并执行 `generate_report.py`。生成后请在 Word 中打开报告，**右键目录 →「更新域」→「更新整个目录」** 以刷新页码与目录。
+
